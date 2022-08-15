@@ -5,16 +5,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start PORT=3001",
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.4",
+    "axios": "^0.27.2",
+    "feather-icons": "^4.29.0",
+    "install": "^0.13.0",
     "next": "12.2.5",
+    "next-redux-wrapper": "^7.0.5",
+    "npm": "^8.17.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
+    "react-dom": "18.2.0",
+    "react-feather": "^2.0.10",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1"
   }
 }
